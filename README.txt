@@ -3,7 +3,7 @@
 ### Overview
 This repository contains the source code for my personal portfolio website, designed to showcase my engineering projects bridging the gap between **Optical Systems** and **Software Engineering**. 
 
-You can view the live deployment here: [https://EyitoCODE.github.io](https://EyitoCODE.github.io)
+You can view the live deployment here: [https://eyitocode.github.io/Portfolio.io/]
 
 ### Featured Projects Highlighted
 * **PyOptics:** A real-time lens distortion and correction engine utilizing Brown's mathematical model, built with Python, OpenCV, and NumPy.
