@@ -4686,4 +4686,34 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+		
+
 	}
+
+/* --- CUSTOM MOBILE RESPONSIVENESS & OVERFLOW FIXES --- */
+@media screen and (max-width: 736px) {
+    /* Prevent long titles and un-spaced URLs from breaking the viewport width */
+    h1, h2, h3, h4, h5, h6, p, a {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    
+    /* Fix clipping issues on the Featured Post container */
+    #main > .post.featured {
+        padding: 3rem 1.5rem 1.5rem 1.5rem;
+    }
+
+    /* Constrain the secondary grid articles to prevent bleeding past the screen edges */
+    #main > .posts > article {
+        padding: 2rem 1.5rem;
+        border-left-width: 0 !important;
+        border-right-width: 0 !important;
+    }
+
+    /* Optimize the hamburger menu placement */
+    #navPanelToggle {
+        top: 0.5rem;
+        right: 0.5rem;
+    }
+}
