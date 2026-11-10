@@ -1,19 +1,34 @@
-# Oritse-Tsegbemi Eyito - Engineering Portfolio
+# Oritse-Tsegbemi Eyito — Engineering Portfolio
 
-### Overview
-This repository contains the source code for my personal portfolio website, designed to showcase my engineering projects bridging the gap between **Optical Systems** and **Software Engineering**. 
+[Visit the live portfolio](https://eyitocode.github.io/Portfolio.io/)
 
-You can view the live deployment here: [https://eyitocode.github.io/Portfolio.io/]
+Selected projects connecting Optical Systems & Sensors studies with computer vision
+and engineering automation. Built with static HTML, CSS and JavaScript, adapted
+from HTML5 UP's Massively template and hosted on GitHub Pages.
 
-### Featured Projects Highlighted
-* **PyOptics:** A real-time lens distortion and correction engine utilizing Brown's mathematical model, built with Python, OpenCV, and NumPy.
-* **Pitch Perfect:** A computer-vision and NLP-based analytics system for communication coaching, leveraging DeepFace and TextBlob.
-* **Optical Sensor Metrology:** Hardware lab analysis involving HeNe lasers, optical couplers, and power loss calculations.
+## Featured work
 
-### Architecture
-* **Frontend:** HTML5, CSS3, JavaScript (Adapted from the Massively template)
-* **Hosting/CI-CD:** GitHub Pages
+- [Hardware verification](https://github.com/EyitoCODE/automated-hw-verification):
+  14 directed simulation checks, failure propagation, and CI reports.
+- [Opti-DefectNet](https://github.com/EyitoCODE/opti-defectnet):
+  synthetic imagery, reproducible splits and held-out evaluation.
+- [PyOptics](https://github.com/EyitoCODE/PyOptics-Correction):
+  known-parameter distortion/correction and numerical regression checks.
 
-### Contact
-* **LinkedIn:** [Oritse-Tsegbemi Eyito](https://www.linkedin.com/in/oritse-tsegbemi-eyito-aa58032a1/)
-* **Email:** tsegbemi.eyito@gmail.com
+The site distinguishes academic work, prototypes and measured checks.
+It does not claim real-fiber inspection accuracy or physical-camera calibration.
+
+## Preview locally
+
+```bash
+python3 -m http.server 8000
+```
+
+Open http://localhost:8000. The homepage content is visible without JavaScript.
+Videos load only on request; static images below the introduction load lazily.
+The résumé button opens the résumé already featured on LinkedIn.
+
+## Attribution
+
+Design: [HTML5 UP](https://html5up.net), Massively. Preserve the template
+attribution and the terms in LICENSE.txt.

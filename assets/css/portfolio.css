@@ -1,0 +1,53 @@
+/* Portfolio-specific layout; the HTML5 UP attribution remains in the footer. */
+body, input, select, textarea { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+h1,h2,h3,h4,.button,#nav { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+html { scroll-behavior: smooth; }
+.skip-link { position: fixed; top: -6rem; left: 1rem; background: white; color: #212931; z-index: 10001; padding: .6rem 1rem; }
+.skip-link:focus { top: 1rem; }
+#intro { min-height: auto; padding: 5rem 2rem 3.5rem; justify-content: center; opacity: 1; transform: none; }
+#intro h1 { font-size: clamp(2rem, 5vw, 4rem); line-height: 1.1; letter-spacing: .025em; max-width: 58rem; text-transform: none; }
+#intro .intro-copy { max-width: 48rem; font-size: 1.12rem; line-height: 1.8; font-style: normal; }
+.eyebrow, .project-tag { font-size: .78rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+#intro .eyebrow { font-size: .8rem; font-style: normal; color: #b6e1df; }
+#intro + #header { margin: 0; height: 0; padding: 0; overflow: hidden; }
+#intro .intro-actions { flex-wrap: wrap; gap: .8rem; justify-content: center; margin: .5rem 0 0; }
+#intro .intro-actions li { padding: 0; }
+#nav { border-radius: .5rem .5rem 0 0; }
+#main { scroll-margin-top: 1rem; }
+#main .portfolio-intro { padding: 3rem 4rem; }
+#main .portfolio-intro h2 { font-size: 1.8rem; line-height: 1.3; text-transform: none; letter-spacing: .01em; }
+#main p { text-align: left; }
+#main .featured .major p { text-align: center; max-width: 50rem; margin-left: auto; margin-right: auto; }
+#main .post.featured { padding: 2.5rem 4rem 3rem; }
+#main .post.featured h2 { font-size: 2.3rem; line-height: 1.15; text-transform: none; }
+#main .posts article { padding: 2.5rem; min-width: 0; }
+#main .posts h2 { font-size: 1.7rem; line-height: 1.3; text-transform: none; letter-spacing: .01em; overflow-wrap: anywhere; }
+.project-tag { color: #41666e; line-height: 1.6; }
+.project-video { display: block; width: 100%; height: auto; border-radius: .25rem; background: #17212a; margin: 1rem 0 2rem; }
+.project-facts { text-align: left; font-size: .96rem; line-height: 1.8; }
+.project-facts dt { margin-top: 1rem; font-weight: 700; }
+.project-facts dd { margin: .2rem 0 0; }
+#main .image img { height: auto; aspect-ratio: 16 / 9; object-fit: contain; background: #edf0f3; }
+#main .secondary-projects h2 { font-size: 1.45rem; }
+#main .secondary-projects p { font-size: .98rem; }
+.actions { flex-wrap: wrap; gap: .5rem; }
+.button { white-space: normal; height: auto; min-height: 3rem; line-height: 1.5; padding: .85rem 1.4rem; }
+#footer a { overflow-wrap: anywhere; }
+#footer .contact > section { padding: 2rem 3rem; }
+#footer .contact p { margin: 0; }
+a:focus-visible, button:focus-visible, video:focus-visible { outline: 3px solid #18bfef; outline-offset: 4px; }
+@media (max-width:736px) {
+ #intro { padding: 4rem 1.4rem 2.5rem; }
+ #intro .intro-copy { font-size: 1rem; }
+ #intro .intro-actions { width: 100%; }
+ #intro .intro-actions li { width: 100%; }
+ #intro .intro-actions .button { width: 100%; }
+ #main .portfolio-intro, #main .post.featured, #main .posts article { padding: 2rem 1.5rem; }
+ #main .post.featured h2 { font-size: 1.9rem; }
+ #main .portfolio-intro h2 { font-size: 1.6rem; }
+ #footer .contact > section { padding: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+ html { scroll-behavior: auto; }
+ *, *::before, *::after { animation: none !important; transition: none !important; }
+}
