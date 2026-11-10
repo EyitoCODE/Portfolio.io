@@ -54,3 +54,5 @@ a:focus-visible, button:focus-visible, video:focus-visible { outline: 3px solid 
 
 #intro + #header + #nav { margin-top: 0; }
 .media-note { font-size: .85rem; color: #52616b; }
+
+#intro.hidden { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
